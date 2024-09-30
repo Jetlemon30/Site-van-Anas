@@ -1,0 +1,189 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{ 
+    background-color: wheat;
+    margin: 0;
+    
+}
+
+header {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%; 
+  background-color: #f5deb3; 
+  z-index: 1000; 
+  
+}
+
+.TOP{
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 2px solid #000814;
+  margin-top: 7px;
+  overflow: hidden;
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 300ms ease;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.TOP::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ba0d18;
+  top: 100%;
+  left: 0;
+  transition: 500ms ease;
+}
+
+.TOP:hover {
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.TOP:hover::before {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-knop{
+  height: 65px;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+
+.streepie{
+  color: red;
+  height: 5px;
+  border-color: transparent;
+  background-color: red;
+  width: 40%;
+  margin-bottom: 100px;
+}
+
+
+.Title{
+  text-align: center;
+}
+
+.container{
+  background-color: #e0cd8c;
+  height: 750px;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info_Anas{
+  text-align: center;
+}
+ 
+.foto_Anas{
+height: 450px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 45px;
+}
+
+.foto_ril{
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  
+}
+
+.eyy{
+  font-size: x-small;
+  text-align: center;
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: blue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.dropdown-content a:hover {
+  background-color: red;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown:hover .TOP {
+  background-color: #d44f26;
+}
+
+
+.Tekst_v{
+  margin-bottom: 15px;
+  text-align: center;
+  display: block;
+}
+
+
+.container-va{
+  background-color: #e0cd8c;
+  height: 100%;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+
+.vacature-20{
+  margin-bottom: 40px;
+  height: 1000px;
+}
+
+.free{
+  margin-bottom: 40px;
+}

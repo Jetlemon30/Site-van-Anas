@@ -1,0 +1,25 @@
+.Kopje{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.Title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.Tekst_Nu{
+    text-align: center;
+    display: block;
+    padding-left:10% ;
+    padding-right: 10%;
+}
+.foto-pro{
+    margin-top:25px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

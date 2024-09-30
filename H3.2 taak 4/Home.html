@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="Anas.css">
+</head>
+<body>
+
+    
+    
+    <div class="top-knop">
+
+        <div class="dropdown">
+            <button class="TOP" >Profielen Anas  &#8615;</button>
+            <div class="dropdown-content" >
+        <a href="/Home.html"><button class="TOP">Home</button></a>
+        <a href="/Anas_Nu.htm"><button class="TOP">Anas Nu</button></a>
+        <a href="/Anasvlak.html"><button class="TOP">Anas na 5 jaar</button></a>
+            </div>
+        </div>
+        
+        
+        
+        
+        <div class="dropdown">
+            <button class="TOP">Profielen &#8615;</button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="Profiel1.html"><button class="TOP">Profiel van Riley</button></a>
+                <a href="Profiel2.html"><button class="TOP">Profiel van Timmy</button></a>
+                <a href="Profiel3.html"><button class="TOP">Profiel van Oguz</button></a>
+            </div>
+        </div>
+        
+        <script>
+            function toggleDropdown() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+        </script>
+        
+        
+        
+       
+    
+
+        <div class="dropdown">
+            <button class="TOP" onclick="toggleDropdown()">Voorbeeld Vacature &#8615;</button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="#sectie1"><button class="TOP">Vacature voor Anas</button></a>
+                <a href="#sectie2"><button class="TOP">Vacature voor Riley</button></a>
+                <a href="#sectie3"><button class="TOP">Vacature voor Timmy</button></a>
+                <a href="#sectie4"><button class="TOP">Vacature voor Oguz</button></a>
+            </div>
+        </div>
+        
+        <script>
+            function toggleDropdown() {
+                document.getElementById("myDropdown").classList.toggle("show");
+                window.location.href = "Vacature.html"; 
+            }
+        </script>
+        
+        </div>
+    </div>
+
+        <hr class="streepie">
+
+
+
+<div class="container">    
+    <div>
+        <H1 class="Title">Anas- ICT’er van de toekomst</H1>
+    </div>
+
+
+    <p class="info_Anas">
+        Ola Ik ben Anas ben 18 jaar oud en woon in Schiedam.<br> 
+        Momenteel volg ik de opleiding Expert IT System and Devices, <br>
+        waar ik alles leer over netwerken en IT-systemen. <br>
+        Technologie heeft mij altijd gefascineerd, vooral omdat het altijd in beweging is.<br>
+        In mijn vrije tijd verdiep ik me graag in cybersecurity en nieuwe technologieën.<br>
+        Mijn doel is om een IT-expert te worden en technische uitdagingen voor anderen op te lossen.
+    </p>
+    <img class="foto_Anas" src="/Foto/Anas.jpg">
+    <p class="eyy">eyy thats me &#8593; </p>
+
+
+</div>
+</body>
+</html>

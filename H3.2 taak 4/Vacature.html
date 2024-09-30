@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="Anas.css">
+</head>
+<body>
+    <header>
+      
+        <div class="top-knop">
+            <div class="dropdown">
+                <button class="TOP" >Profielen Anas  &#8615;</button>
+                <div class="dropdown-content" id="H0me">
+            <a href="/Home.html"><button class="TOP">Home</button></a>
+            <a href="/Anas_Nu.htm"><button class="TOP">Anas Nu</button></a>
+            <a href="/Anasvlak.html"><button class="TOP">Anas na 5 jaar</button></a>
+                </div>
+            </div>
+            
+            
+            
+            <div class="dropdown">
+                <button class="TOP" >Profielen &#8615;</button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="Profiel1.html"><button class="TOP">Profiel van Riley</button></a>
+                    <a href="Profiel2.html"><button class="TOP">Profiel van Timmy</button></a>
+                    <a href="Profiel3.html"><button class="TOP">Profiel van Oguz</button></a>
+                </div>
+            </div>
+            
+            <script>
+                function toggleDropdown() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                    document.getElementById("H0me").classList.toggle("show");
+                }
+            </script>
+            
+            
+            
+           
+        
+            
+            <div class="dropdown">
+                <button class="TOP" onclick="toggleDropdown()">Voorbeeld Vacature &#8615;</button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="#sectie1"><button class="TOP">Vacature voor Anas</button></a>
+                    <a href="#sectie2"><button class="TOP">Vacature voor Riley</button></a>
+                    <a href="#sectie3"><button class="TOP">Vacature voor Timmy</button></a>
+                    <a href="#sectie4"><button class="TOP">Vacature voor Oguz</button></a>
+                </div>
+            </div>
+            
+            <script>
+                function toggleDropdown() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                    window.location.href = "Vacature.html"; 
+                }
+            </script>
+            
+            </div>
+        </div>
+
+    </header>
+        <hr class="streepie">
+    
+
+        <div id="sectie1" class="container-va">    
+            
+        
+            <h1 class="Title">Chief Information Security Officer</h1>
+            <a class="Tekst_v">ik denk dat deze vacature bij mij (Anas) past misschien niet binnen 2/5 jaar maar misschien over 7 jaar</a>
+            <iframe class="Vacature20" src="/Vacatuur/vacature anas.pdf" width="100%" height="600px"></iframe>
+        </div>
+<br> <br>
+<br>
+<br>
+<br>
+
+    
+
+        <div id="sectie2" class="container-va">
+            <h1 class="Title">IT Infra Specialisten</h1>
+            <a class="Tekst_v">Ik denk dat deze vacature bij Rilay persoonlijk merk ik nu niet echt voor me maar denk dat het hem wel lukt over een paar 5 jaar.</a>
+            <iframe class="Vacature20" src="/Vacatuur/Riley vacature.pdf" width="100%" height="600px"></iframe>
+        </div>
+
+
+
+<br> <br>
+<br>
+<br>
+<br>
+
+
+<div id="sectie3" class="container-va">
+    <h1 class="Title">Netwerkbeheerder</h1>
+    <a class="Tekst_v">Ik denk dat deze vacature perfect past bij Timmy omdat hij als na zijn opleiding gelijk wilt beginnen met werken en al aangaf dat hij netwerken wilt beheeren.</a>
+    <iframe class="Vacature20" src="/Vacatuur/Timmy Vacature.pdf" width="100%" height="600px"></iframe>
+</div>
+
+<br> <br>
+<br>
+<br>
+<br>
+
+<div id="sectie4" class="container-va">
+    <h1 class="Title">Senior technisch beheerder Windows/Linux</h1>
+    <a class="Tekst_v">Ik heb deze vacature gekozen voor Oguz. Hij wilt zelf veel macht hebben maar ook in de IT blijven. Als Sernior heeft hij iets meer macht als normale medewerkers dus zie dat als een plus punt. </a>
+    <iframe class="Vacature20" src="/Vacatuur/Oguz vacature.pdf" width="100%" height="600px"></iframe>
+</div>
+
+<br><br><br><br>
+
+
+
+
+
+</body>
+</html>
